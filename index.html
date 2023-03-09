@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Критерий Гурвица</title>
+    <script src = "index.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body id = "body">
+    <div class = "content" id = "content">
+        <div class = "block">
+            <p>Стратегии игрока (предложение):</p>
+            <input name = "a1" id = "a1" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+            <input name = "a2" id = "a2" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+            <input name = "a3" id = "a3" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+
+            <p>Состояния природы (спрос):</p>
+            <input name = "p1" id = "p1" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+            <input name = "p2" id = "p2" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+            <input name = "p3" id = "p3" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+        
+            <p>Цена реализации:</p>
+            <input name = "c" id = "cena" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+
+            <p>Затраты на производство:</p>
+            <input name = "z" id = "zatraty" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+
+            <p>Коэффициент оптимизма (от 0 до 1):</p>
+            <input name = "g" id = "gamma" class = "inputbox" type = "text" onkeyup = "this.value = this.value.replace(/[^\d.]/g,'');" required>
+            <br>
+            <br>
+            <button onclick="check_inputs();">Продолжить</button>
+        </div>
+        <div id = "pl_matrix"></div>
+        <div id = "table"></div>
+        <div id = "result"></div>
+</div>
+</body>
+</html>

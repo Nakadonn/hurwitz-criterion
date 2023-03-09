@@ -1,0 +1,94 @@
+.content {
+    margin-top: 20px;
+}
+table {
+    border-spacing: 0;
+    border: 2px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    border-color: #ACACAC;
+    
+}
+
+th, td {
+    padding: 10px 20px;
+    border: 1px solid #ACACAC;
+}
+
+#pl_matrix {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#result p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: #004aad;
+    font-size: 18px;
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    width: 600px;
+    height: 420px;
+    text-align: center;
+    background: #bae0ff;
+    border-radius: 10px;
+}
+
+p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 23px;
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+input {
+    width: 160px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    border-radius: 4px;
+}
+
+.error {
+    border-color: #C50000;
+}
+
+input:invalid {
+    border-color: #C50000;
+    background: #FFFFFF;
+}
+
+button {
+    margin-top: 10px;
+    width: 156px;
+    height: 30px;
+    background: #004aad;
+    border: 1px solid rgba(0, 0, 0, 0.18);
+    box-shadow: 0px 4px 6px -2px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+button:active {
+    box-shadow: inset 0px 4px 6px -2px rgba(0, 0, 0, 0.25);
+}
